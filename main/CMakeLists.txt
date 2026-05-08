@@ -1,0 +1,21 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "display.c"
+        "fft.c"
+        "audio.c"
+        "encoder.c"
+    INCLUDE_DIRS "."
+    REQUIRES
+        msi001
+        nau8822
+        st7789
+        driver
+        esp_driver_i2s
+        esp_driver_i2c
+        esp_driver_gpio
+        esp_driver_spi
+        esp_timer
+        esp_driver_ledc
+        freertos
+)

@@ -1,0 +1,17 @@
+{
+  "idf.currentSetup": "/home/gmtii/.espressif/v6.0/esp-idf",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "/home/gmtii/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/gmtii/git/sdr_project/build"
+  ],
+  "idf.flashType": "JTAG",
+  "idf.port": "/dev/ttyACM0"
+}

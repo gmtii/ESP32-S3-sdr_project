@@ -1,0 +1,9 @@
+Command: cmake -G Ninja -B /home/gmtii/git/sdr_project/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/gmtii/.espressif/tools/python/v6.0/venv/bin/python3 -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/gmtii/git/sdr_project
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 

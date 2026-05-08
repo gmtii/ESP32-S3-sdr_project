@@ -1,0 +1,2 @@
+source /home/gmtii/git/sdr_project/build/gdbinit/symbols
+source /home/gmtii/git/sdr_project/build/gdbinit/connect
